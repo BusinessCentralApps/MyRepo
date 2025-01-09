@@ -3,28 +3,42 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@preview",
   "useCompilerFolder": true,
   "doNotPublishApps": true,
-  "templateSha": "bcf5ae3b4204b8687d8afc14a766329e684664cb",
+  "templateSha": "044c659dce8d72c3f1750a55dd7792c4db0a0a56",
   "conditionalSettings": [
     {
-      "workflows": [ "CICD" ],
+      "workflows": [
+        "CICD"
+      ],
       "settings": {
-        "buildModes": [ "DEFAULT", "NEXTMAJOR", "NEXTMINOR" ]
+        "buildModes": [
+          "DEFAULT",
+          "NEXTMAJOR",
+          "NEXTMINOR"
+        ]
       }
     },
     {
-      "buildModes": [ "NEXTMAJOR" ],
+      "buildModes": [
+        "NEXTMAJOR"
+      ],
       "settings": {
         "artifact": "////nextmajor",
         "cacheImageName": "",
-        "preprocessorSymbols": [ "NEXTMAJOR" ]
+        "preprocessorSymbols": [
+          "NEXTMAJOR"
+        ]
       }
     },
     {
-      "buildModes": [ "NEXTMINOR" ],
+      "buildModes": [
+        "NEXTMINOR"
+      ],
       "settings": {
         "artifact": "////nextminor",
         "cacheImageName": "",
-        "preprocessorSymbols": [ "NEXTMINOR" ]
+        "preprocessorSymbols": [
+          "NEXTMINOR"
+        ]
       }
     }
   ]
