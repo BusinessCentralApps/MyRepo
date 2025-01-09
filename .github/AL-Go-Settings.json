@@ -7,27 +7,27 @@
   "conditionalSettings": [
     {
       "workflows": [ "CICD" ],
-      "settings": [
+      "settings": {
         "buildModes": [ "DEFAULT", "NEXTMAJOR", "NEXTMINOR" ]
-      ]
+      }
     },
     {
       "buildModes": [ "NEXTMAJOR" ],
-      "settings": [
+      "settings": {
         "artifact": "////nextmajor",
         "cacheImageName": "",
         "versioningStrategy": 15,
         "preprocessorSymbols": [ "NEXTMAJOR" ]
-      ]
+      }
     },
     {
       "buildModes": [ "NEXTMINOR" ],
-      "settings": [
+      "settings": {
         "artifact": "////nextminor",
         "cacheImageName": "",
         "versioningStrategy": 15,
         "preprocessorSymbols": [ "NEXTMINOR" ]
-      ]
+      }
     }
   ]
 }
