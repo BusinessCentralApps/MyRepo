@@ -1,6 +1,3 @@
 {
-  "artifact": "////nextminor",
-  "cacheImageName": "",
-  "versioningStrategy": 15,
-  "preprocessorSymbols": [ "NEXTMINOR" ]
+  "buildModes": [ "NEXTMINOR" ]
 }
