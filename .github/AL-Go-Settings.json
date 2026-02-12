@@ -41,5 +41,6 @@
         ]
       }
     }
-  ]
+  ],
+  "PullRequestTrigger": "pull_request"
 }
